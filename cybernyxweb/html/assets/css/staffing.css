@@ -162,7 +162,6 @@ img {
     display: flex;
     flex-direction: column;
     border-radius: 1%;
-    height: 480px;
     margin: 30px;
 
   }
@@ -185,12 +184,12 @@ img {
     display: flex;
     flex-direction: column;
     margin: 30px;
+    text-align: center;
   }
 
 
   .mid-container{
 
-    height: 500px;
     background-color: aliceblue;
     color: rgb(30,30,30);
     display: flex;
@@ -205,20 +204,20 @@ img {
   .mc-child{
     display: flex;
     flex-direction: row;
-    margin: 30px;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line on smaller screens */
     justify-content: center;
+    margin: 30px;
   }
 
-  .mc-card{
-
+  .mc-card {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    margin: 10px; /* Reduce margin for smaller screens */
     text-align: center;
     height: 240px;
     width: 200px;
-
+    max-width: 90%; /* Limit card width on smaller screens */
   }
   
   .mc-card-items{
@@ -227,7 +226,6 @@ img {
 
   .lower-mid-container{
 
-    height: 500px;
     background-color: aliceblue;
     color: rgb(30,30,30);
     display: flex;
@@ -237,8 +235,10 @@ img {
 
   .lmc-child{
     margin: 100px;
-    border: 2px solid black;
+    border-radius: 20px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .lmc-card{
