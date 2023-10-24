@@ -236,7 +236,7 @@ img {
   }
 
   .lmc-child{
-    margin: 30px;
+    margin: 100px;
     border: 2px solid black;
     display: flex;
   }
