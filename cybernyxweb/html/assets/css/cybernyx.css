@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+/* CSS for video container within .other-container */
+.other-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding-top: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100%) */
+    margin-bottom: 30px;
+}
+
+/* CSS for the video element */
+.other-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
+    color: white; /* Text color */
+}
+
+.overlay h1{
+
+    font-family: "Bebas Neue";
+    font-size: 64px;
+    margin: 30px;
+
+}
+
+.header h1{
+
+    font-family: "Bebas Neue";
+    font-size: 64px;
+    margin-top: 30px;
+
+}
+
+.client-container{
+    width: 100%;
+    overflow-x: auto;
+}
