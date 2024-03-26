@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+
+#ButterDog {
+
+    font-family: "Silkscreen";
+    color: gold;
+    border: 2px solid black;
+    background: aliceblue;
+
+}
+
+.box{
+    text-align: center;
+    align-items: center;
+}
